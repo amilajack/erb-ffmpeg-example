@@ -11,6 +11,8 @@
  * @flow
  */
 import { app, BrowserWindow } from 'electron';
+import ffmpeg from 'fluent-ffmpeg';
+import path from 'path';
 import MenuBuilder from './menu';
 
 let mainWindow = null;
@@ -83,4 +85,9 @@ app.on('ready', async () => {
 
   const menuBuilder = new MenuBuilder(mainWindow);
   menuBuilder.buildMenu();
+
+  // ffmpeg code here...
+  ffmpeg.ffprobe(path.join(__dirname, 'small.mp4'), (err, metadata) => {
+    console.dir(metadata);
+  });
 });
