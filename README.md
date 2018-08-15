@@ -1,7 +1,7 @@
 erb-ffmpeg-example
 ==================
 
-[![Build Status](https://travis-ci.org/amilajack/erb-ffmpeg-example.svg?branch=master&maxAge=2592)](https://travis-ci.org/amilajack/erb-ffmpeg-example)
+[![Build Status](https://travis-ci.org/amilajack/erb-ffmpeg-example.svg?branch=master&maxAge=2592)](https://travis-ci.org/amilajack/erb-ffmpeg-example) [![Greenkeeper badge](https://badges.greenkeeper.io/amilajack/erb-ffmpeg-example.svg)](https://greenkeeper.io/)
 
 **An example of [erb](https://github.com/chentsulin/electron-react-boilerplate) using [ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg).**
 
